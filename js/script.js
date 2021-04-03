@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menu_active');
         });
     });
+    
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1600) {
             $('.pageup').fadeIn();
@@ -27,4 +28,5 @@ window.addEventListener('DOMContentLoaded', () => {
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
+    
 });
