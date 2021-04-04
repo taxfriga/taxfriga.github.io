@@ -35,32 +35,22 @@ window.addEventListener('DOMContentLoaded', () => {
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
-    $(document).ready(function(){
-        $('.carousel__inner').slick({
-            infinite: true,
-            speed: 1200,
-            // adaptiveHeight: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            fade: true,
-            cssEase: 'linear',
-            prevArrow: '<button type="button" class="slick-prev"><img src="img/left.svg"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="img/right.svg"></button>',
+    $('.carousel__inner').slick({
+        speed: 1200,
+        adaptiveHeight: true,
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 992,
                 settings: {
-                    infinite: true,
-                    speed: 1200,
-                    // adaptiveHeight: true,
+                    // dots: true,
+                    arrows: false,
                     autoplay: true,
-                    autoplaySpeed: 2000,
-                    fade: true,
-                    cssEase: 'linear',
+                    autoplaySpeed: 2000
                 }
             }
         ]
-        });
     });
     
 });
