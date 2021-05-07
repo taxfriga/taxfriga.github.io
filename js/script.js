@@ -11,4 +11,8 @@ $(document).ready(function(){
     nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-next-active-2.svg"></button>',
     
   });
+
+  $.fancybox.defaults.animationEffect = "tube";
+  
+
 });
