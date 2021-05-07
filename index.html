@@ -49,11 +49,17 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+   
     <section class="main__navigation">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <div class="container">
-            <div id="main-nav" class="main-nav">
+            <!-- <div id="main-nav" class="main-nav">
                 <div id="main-nav__inner" class="main-nav__inner">
-                    <ul id="menu-glavnoe-menyu" class="main-nav__navbar">
+                    <ul id="menu-glavnoe-menyu" class="main-nav__navbar menu">
                         <li id="menu-item-23" class="main-nav__item main-nav__item--active"><a href="#"aria-current="page" class="main-nav__link main-nav__link--active">ГЛАВНАЯ</a></li>
                         <li id="menu-item-28" class="main-nav__item"><a href="#" class="main-nav__link">ОБ АВТОРЕ</a></li>
                         <li id="menu-item-26" class="main-nav__item"><a href="#" class="main-nav__link">КОНТАКТЫ</a></li>
@@ -61,10 +67,20 @@
                         <li id="menu-item-27" class="main-nav__item"><a href="#" class="main-nav__link">ОНЛАЙН ОБУЧЕНИЕ</a></li>
                     </ul>
                 </div>                
-            </div>
+            </div> -->
+            <nav>
+                <div class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link">ГЛАВНАЯ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">ОБ АВТОРЕ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">КОНТАКТЫ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">КУКЛЫ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">ОНЛАЙН ОБУЧЕНИЕ</a></li>
+                </div>
+            </nav>
         </div>
     </section> 
     <section class="subheader">
+        
         <div class="container">
             <div class="subheader__contacts">
                 <div class="subheader__contacts__list">
@@ -97,9 +113,9 @@
     <section class="content">
         <div class="container">
             <div class="divider"></div>
-            <div class="content__supdescr">Привет</div>
+            <h1 class="content__supdescr">Добро пожаловать в мир Интерьерной куклы.</h1>
             <div class="content__descr">
-                <h1>Меня зовут Анастасия, <br> я создаю авторские игрушки и научу этому вас.</h1>
+                Меня зовут Анастасия и я покажу вам насколько легко и увлекательно вы создадите свою собственную авторскую игрушку. На сайте представлены мои работы, каждая кукла эксклюзивна, выполнена в единственном экземпляре. Подробные Онлайн курсы и Мастер классы с моим личным сопровождением, разбор тонкостей и нюансов при создании различных кукол. Здесь мы будем творить, вытворять, вдохновляться и получать огромное удовольствие!
             </div>
             <div class="content__wrapper">
                 <div class="content__input">
@@ -143,7 +159,7 @@
     <section class="fancydox">
         <div class="container">
             <div class="divider"></div>
-            <div class="content__supdescr">фото моих игрушек</div>
+            <div class="content__supdescr">Фото моих игрушек</div>
             
             <div class="fancydox__wrapper">
                 <div class="fancydox__wrap">
@@ -165,9 +181,26 @@
                 <div class="fancydox__wrap">
                     <div class="fancydox__wrap__content"><a href="img/works/works-3.jpg" data-fancybox="gallery" data-animation-effect="tube"><img src="img/works/works-3.jpg" alt=""></a></div>
                 </div>
-               
-                
             </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="subheader__contacts">
+                <div class="subheader__contacts__list">
+                    <div class="subheader__contacts_link subheader__contacts_link_phone">
+                        <div class="subheader__contacts_name">Телефон</div>
+                        <a class="subheader__contacts_number" href="tel:+79057090905">+7 905 709-09-05</a>
+                    </div>
+                </div>
+                <div class="subheader__brand">anastasia</div>
+                <div class="subheader-form">
+                    <button class="btn btn--modal-order-form btn--header" type="button">
+                        <div class="btn__inner more-info">Заказать</div>
+                    </button>
+                </div>
+            </div> 
         </div>
     </section>
 
