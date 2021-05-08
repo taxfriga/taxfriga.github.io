@@ -30,6 +30,61 @@ $(document).ready(function(){
     
   });
 
+  // modal
+
+  // $('[data-modal=consultation]').fadeOut();
+  $('[data-modal=consultation]').on('click', function() {
+    $('.overlay, #consultation').fadeIn('slow');
+  });
+  $('.modal__close').on('click', function() {
+    $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+  });
+
+      // функция на кнопку купить
+
+  $('.button_mini').each(function(i) {
+    $(this).on('click', function() {
+        $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+        $('.overlay, #order').fadeIn('slow');
+    });
+  });
+  function validateForms(form){
+    $(form).validate({
+        rules: {
+          name: {
+              required: true,
+              minlength: 2
+          },
+          phone: "required",
+          email: {
+              required: true,
+              email: true
+          }
+        },
+        messages: {
+          name: {
+              required: "Пожалуйста, введите свое имя",
+              minlength: jQuery.validator.format("Введите {0} символа!")
+            },
+          phone: "Пожалуйста, введите свой номер телефона",
+          email: {
+            required: "Пожалуйста, введите свою почту",
+            email: "Неправильно введен адрес почты"
+          }
+        }
+    });
+  };
+
+  
+  validateForms('#consultation form');
+  validateForms('#order form');
+
+  $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+
+
+
+
   $(window).scroll(function() {
     if ($(this).scrollTop() > 600) {
       $('.pageup').fadeIn();
@@ -49,7 +104,6 @@ $(document).ready(function(){
     transitionEffect: tube,
   });
   
-
   
 
 });
