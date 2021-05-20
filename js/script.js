@@ -12,9 +12,9 @@ window.addEventListener('DOMContentLoaded', () => {
       item.addEventListener('click', () => {
           hamburger.classList.toggle('hamburger_active');
           menu.classList.toggle('menu_active');
-      })
-  })
-})
+      });
+  });
+});
 
 $(document).ready(function(){
   $('.carousel__inner').slick({
@@ -25,6 +25,36 @@ $(document).ready(function(){
     // adaptiveHeight: true,
     fade: true,
     cssEase: 'linear',
+    prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-prev-active-2.svg"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-next-active-2.svg"></button>',
+    
+    
+  });
+
+  $('.carousel__bottom').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 2,
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ],
     prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-prev-active-2.svg"></button>',
     nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-next-active-2.svg"></button>',
     
@@ -44,10 +74,11 @@ $(document).ready(function(){
 
   $('.button_mini').each(function(i) {
     $(this).on('click', function() {
-        $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
-        $('.overlay, #order').fadeIn('slow');
+      $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+      $('.overlay, #order').fadeIn('slow');
     });
   });
+
   function validateForms(form){
     $(form).validate({
         rules: {
@@ -81,6 +112,7 @@ $(document).ready(function(){
 
   $('input[name=phone]').mask("+7 (999) 999-99-99");
 
+  
 
 
 
@@ -117,10 +149,47 @@ $('.slider-for').slick({
   asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
-  slidesToShow: 2,
+  slidesToShow: 4,
   slidesToScroll: 1,
   asNavFor: '.slider-for',
   dots: true,
-  centerMode: true,
-  focusOnSelect: true
+  arrows: false,
+  // centerMode: true,
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    }
+  ],
+});
+
+$('form').submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    type: "POST",
+    url: "mailer/smart.php",
+    data: $(this).serialize()
+  }).done(function() {
+    $(this).find("input").val("");
+    $('#consultation, #order').fadeOut();
+    $('.overlay, #thanks').fadeIn('slow');
+
+    $('form').trigger('reset');
+  });
+  return false;
 });
