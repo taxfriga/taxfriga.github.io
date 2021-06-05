@@ -1,9 +1,4 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -14,6 +9,10 @@ body a {
 html, body{
     font-family: 'Oswald', sans-serif;
     font-size: 100%;
+}
+
+a:hover {
+	text-decoration: none;
 }
 .banner{
     background-size: cover;
@@ -137,17 +136,23 @@ ul.nav.navbar-nav {
 }
 /*-- slider --*/
 .slider {
-    background: url(../images/8.jpg) center center / cover no-repeat;
+    background: url(../images/ozero-rica_1.jpg) center center / cover no-repeat;
     /* background-size: cover; */
     min-height: 800px;
 }
 .slider1 {
-    background: url(../images/3.jpg) center center / cover no-repeat;
+    background: url(../images/novyj-afon_1.jpg) center center / cover no-repeat;
     background-size: cover;
 }
 .slider2 {
-    background: url(../images/2.jpg) center center / cover no-repeat;
+    background: url(../images/gorod-suhum_1.jpg) center center / cover no-repeat;
     background-size: cover;
+	
+}
+.slider3 {
+    background: url(../images/dzhipping-tur.jpg) center center / cover no-repeat;
+    background-size: cover;
+	
 }
 .slider-grid{
 	width: 290px !important;
@@ -211,13 +216,15 @@ ul.nav.navbar-nav {
     color: #383838;
 }
 .about-grids {
-    margin: 4em 0 0 0;
+    margin: 2em 0 0 0;
 }
 .about-grid{
 	text-align:center;
+	margin-top: 30px;
+
 }
 .about-grid-info{
-    background: url(../images/2.jpg)no-repeat 0px 0px;
+    background: url(../images/ozero-rica_1.jpg)no-repeat 0px 0px;
     background-size: cover;
 	border-radius: 50%;
     min-height: 255px;
@@ -230,19 +237,64 @@ ul.nav.navbar-nav {
     line-height: 7.5em;
 }
 .about-grid-info1{
-	background: url(../images/3.jpg)no-repeat 0px 0px;
+	background: url(../images/novyj-afon_1.jpg)no-repeat 0px 0px;
 	background-size: cover;
 	border-radius: 50%;
     min-height: 255px;
 }
 .about-grid-info2{
-	background: url(../images/8.jpg)no-repeat 0px 0px;
+	background: url(../images/gorod-suhum_1.jpg)no-repeat 0px 0px;
 	background-size: cover;
 	border-radius: 50%;
     min-height: 255px;
 }
 .about-grid-info3{
-	background: url(../images/a..webp)no-repeat 0px 0px;
+	background: url(../images/kyndyg.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info4{
+	background: url(../images/kaman.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info5{
+	background: url(../images/vechernyaya-gagra.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info6{
+	background: url(../images/chernigovka.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info7{
+	background: url(../images/gegskij-vodopad.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info8{
+	background: url(../images/rafting.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info9{
+	background: url(../images/ozero-mzy.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info10{
+	background: url(../images/dacha-stalina.jpeg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info11{
+	background: url(../images/dzhipping-tur.jpg)no-repeat 0px 0px;
+	background-size: cover;
+    min-height: 255px;
+}
+.about-grid-info12{
+	background: url(../images/picunda.jpg)no-repeat 0px 0px;
 	background-size: cover;
     min-height: 255px;
 }
@@ -609,7 +661,7 @@ ul.nav.navbar-nav {
     background: #DCEDF9;
 }
 .about-bg{
-    background: url(../images/8.jpg) no-repeat 0px 0px;
+    background: url(../images/stolica-kambodzhi-2.jpg) no-repeat 0px 0px;
     background-size: cover;
     position: inherit;
     min-height: 125px;
@@ -657,7 +709,7 @@ ul.nav.navbar-nav {
 /*-- //a-about --*/
 /*-- different --*/
 .different{
-    background: url(../images/8.jpg) no-repeat 0px 0px;
+    background: url(../images/stolica-kambodzhi-2.jpg) no-repeat 0px 0px;
     padding: 4em 0;
     background-size: cover;
 }
@@ -1834,9 +1886,9 @@ button.btn1:hover{
 	}
 	div#bs-example-navbar-collapse-1 {
 		padding: 0;
-		width: 100%;
+		width: 170%;
 		position: absolute;
-		top: 4em;
+		top: 3.5em;
 		z-index: 999;
 	}
 	ul.nav.navbar-nav {
@@ -1885,8 +1937,26 @@ button.btn1:hover{
 	.about-grid:nth-child(4){
 		margin:1em 0 0 0;
 	}
+	.about-grid:nth-child(5){
+		margin:1em 0 0 0;
+	}
+	.about-grid:nth-child(6){
+		margin:1em 0 0 0;
+	}
+	.about-grid:nth-child(7){
+		margin:1em 0 0 0;
+	}
+	.about-grid:nth-child(8){
+		margin:1em 0 0 0;
+	}
+	.about-grid:nth-child(9){
+		margin:1em 0 0 0;
+	}
+	.about-grid:nth-child(10){
+		margin:1em 0 0 0;
+	}
 	.about-grid-info h4 {
-		font-size: 2em;
+		font-size: 1.2em;
 		line-height: 7.5em;
 	}
 	.about-grid-info:after {
@@ -2030,9 +2100,9 @@ button.btn1:hover{
 }
 @media (max-width:480px){
 	.top-nav {
-		margin: 1em 0 0 0;
+		margin: 0 0 0 0;
 		float: left;
-		width: 46%;
+		width: 58%;
 	}
 	.slider-grid h3 {
 		font-size: 2em;
@@ -2066,7 +2136,7 @@ button.btn1:hover{
 		font-size: 26px!important;
 	}
 	.about-grid-info h4 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		line-height: 7.5em;
 	}
 	.about-grid-info {
@@ -2149,13 +2219,13 @@ button.btn1:hover{
 }
 @media (max-width:414px){
 	.top-nav {
-		width: 46%;
+		width: 58%;
 	}
 	.about-grid-info {
 		min-height: 154px;
 	}
 	.about-grid-info h4 {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		line-height: 7em;
 	}
 	.about-grid-info:after {
@@ -2195,13 +2265,14 @@ button.btn1:hover{
 }
 @media (max-width:384px){
 	.top-nav {
-		width: 46%;
+		width: 58%;
 	}
 	.about-grid-info {
 		min-height: 139px;
 	}
 	.about-grid-info h4 {
 		line-height: 6em;
+		font-size: 1em;
 	}
 	.about-grid-info:after {
 		width: 120px;
@@ -2251,7 +2322,7 @@ button.btn1:hover{
 }
 @media (max-width:375px){
 	.top-nav {
-		width: 46%;
+		width: 58%;
 	}
 	.about-grid-info {
 		min-height: 134px;
@@ -2304,30 +2375,87 @@ button.btn1:hover{
 	.about-grid {
 		float: none;
 		width: 100%;
+		
 	}
 	.about-grid-info {
-		background: url(../images/a.png)no-repeat 50% 50%;	
-		min-height: 175px;
-		background-size: 72%;
+		background: url(../images/ozero-rica_1.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+		text-align: center;
 	}
 	.about-grid-info1 {
-		background: url(../images/a1.png)no-repeat 50% 50%;
-		background-size: 72%;
+		background: url(../images/novyj-afon_1.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
 	}
 	.about-grid-info2 {
-		background: url(../images/a2.png)no-repeat 50% 50%;
-		background-size: 72%;
+		background: url(../images/gorod-suhum_1.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
 	}
-	.about-grid-info3 {
-		background: url(../images/a3.png)no-repeat 50% 50%;
-		background-size: 72%;
+	.about-grid-info3{
+		background: url(../images/kyndyg.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info4{
+		background: url(../images/kaman.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info5{
+		background: url(../images/vechernyaya-gagra.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info6{
+		background: url(../images/chernigovka.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info7{
+		background: url(../images/gegskij-vodopad.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info8{
+		background: url(../images/rafting.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info9{
+		background: url(../images/ozero-mzy.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info10{
+		background: url(../images/dacha-stalina.jpeg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
+	}
+	.about-grid-info11{
+		background: url(../images/dzhipping-tur.jpg)no-repeat 0px 0px;
+		background-size: cover;
+		border-radius: 50%;
+		height: 250px;
 	}
 	.about-grid-info h4 {
 		line-height: 7em;
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.about-grid-info:after {
-		top: 16px;
+		top: 26px;
 		left: 65px;
 		width: 145px;
 		height: 145px;
