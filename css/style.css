@@ -259,7 +259,7 @@ ul.nav.navbar-nav {
     min-height: 255px;
 }
 .about-grid-info5{
-	background: url(../images/vechernyaya-gagra.jpg)no-repeat 0px 0px;
+	background: url(../images/gagraskaya-kolonnada.jpg)no-repeat 0px 0px;
 	background-size: cover;
     min-height: 255px;
 }
@@ -2409,7 +2409,7 @@ button.btn1:hover{
 		height: 250px;
 	}
 	.about-grid-info5{
-		background: url(../images/vechernyaya-gagra.jpg)no-repeat 0px 0px;
+		background: url(../images/gagraskaya-kolonnada.jpg)no-repeat 0px 0px;
 		background-size: cover;
 		border-radius: 50%;
 		height: 250px;
