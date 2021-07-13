@@ -1,0 +1,32 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xml:space="preserve" width="80.996mm" height="80.996mm" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" viewBox="0 0 2451.163 2530">
+ <g transform="translate(-39.4185)">
+  <polygon class="fil0" points="0,2530 2530,2530 2530,0 0,0 " id="polygon7" style="fill:#ffcb08;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="686,1477 583,1375 547,1410 711,1574 874,1410 839,1375 736,1477 736,1330 874,1192 839,1156 736,1259 736,810 686,810 686,1259 583,1156 547,1192 686,1330 " id="polygon9" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1245,0 1218,0 1231,14 " id="polygon11" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1334,360 1384,360 1384,0 1334,0 " id="polygon13" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1487,14 1501,0 1473,0 " id="polygon15" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1756,1250 1858,1353 1894,1317 1756,1179 1756,1032 1858,1134 1894,1098 1731,935 1567,1098 1603,1134 1705,1032 1705,1179 1567,1317 1603,1353 1705,1250 1705,1699 1756,1699 " id="polygon17" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1334,2441 1334,2530 1384,2530 1384,2441 1473,2530 1501,2530 1523,2508 1384,2369 1384,2222 1487,2325 1523,2289 1359,2125 1196,2289 1231,2325 1334,2222 1334,2369 1196,2508 1218,2530 1245,2530 " id="polygon19" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="798,47 659,185 695,221 798,118 798,265 659,403 695,439 798,337 798,567 848,567 848,0 798,0 " id="polygon21" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="697,0 693,0 695,2 " id="polygon23" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1086,428 1050,463 1178,591 1032,737 1178,883 1050,1010 1086,1046 1249,883 1104,737 1249,591 " id="polygon25" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="291,885 418,1013 454,977 291,813 127,977 163,1013 " id="polygon27" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <path class="fil1" d="m 291,59 81,108 H 344 L 291,96 238,167 H 210 Z M 200,218 109,339 H 265 V 693 L 127,831 163,867 291,739 418,867 454,831 316,693 V 339 H 473 L 382,218 h 91 L 309,0 H 272 L 109,218 Z" id="path29" inkscape:connector-curvature="0" style="fill:#f9c401;fill-rule:nonzero"></path>
+  <path class="fil1" d="m 124,1392 95,-127 95,127 h -41 l -54,-72 -54,72 z m 241,122 -54,-72 H 416 L 219,1180 23,1442 h 104 l -53,72 z" id="path31" inkscape:connector-curvature="0" style="fill:#f9c401;fill-rule:nonzero"></path>
+  <polygon class="fil1" points="372,1979 475,2081 511,2046 372,1907 372,1760 475,1863 511,1827 347,1663 184,1827 219,1863 322,1760 322,1907 184,2046 219,2081 322,1979 322,2428 372,2428 " id="polygon33" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1266,1638 1266,1491 1405,1353 1369,1317 1266,1420 1266,1189 1216,1189 1216,1979 1405,1790 1369,1754 1266,1857 1266,1710 1405,1571 1369,1536 " id="polygon35" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="848,2530 848,2307 659,2496 693,2530 697,2530 798,2429 798,2530 " id="polygon37" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="272,2530 309,2530 291,2505 " id="polygon39" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <path class="fil1" d="m 1583,630 95,-127 95,127 h -41 l -54,-72 -54,72 z m 241,122 -54,-72 h 104 L 1678,419 1482,680 h 104 l -54,72 z" id="path41" inkscape:connector-curvature="0" style="fill:#f9c401;fill-rule:nonzero"></path>
+  <path class="fil1" d="m 1931,1871 -53,71 h -28 l 81,-108 81,108 h -28 z m 26,243 h 156 l -91,-121 h 91 l -182,-243 -182,243 h 91 l -91,121 h 157 v 354 l -62,62 h 72 l 15,-16 16,16 h 71 l -61,-62 z" id="path43" inkscape:connector-curvature="0" style="fill:#f9c401;fill-rule:nonzero"></path>
+  <polygon class="fil1" points="2095,222 1931,59 1768,222 1804,258 1931,130 2059,258 " id="polygon45" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="1804,112 1916,0 1844,0 1768,77 " id="polygon47" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="2059,112 2095,77 2018,0 1947,0 " id="polygon49" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="951,1678 787,1842 933,1987 787,2133 951,2297 986,2261 859,2133 1004,1987 859,1842 986,1714 " id="polygon51" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <path class="fil1" d="m 2405,437 -95,127 -95,-127 h 41 l 54,72 54,-72 z m 51,-122 h -291 l 53,72 h -104 l 196,262 197,-262 h -105 z" id="path53" inkscape:connector-curvature="0" style="fill:#f9c401;fill-rule:nonzero"></path>
+  <polygon class="fil1" points="2483,0 2422,0 2452,31 " id="polygon55" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="2506,2251 2360,2105 2488,1977 2452,1942 2289,2105 2434,2251 2289,2397 2422,2530 2483,2530 2488,2524 2360,2397 " id="polygon57" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <polygon class="fil1" points="2239,958 2403,794 2367,759 2239,886 2111,759 2075,794 " id="polygon59" style="fill:#f9c401;fill-rule:nonzero"></polygon>
+  <path class="fil1" d="m 2239,1712 -81,-108 h 28 l 53,71 53,-71 h 28 z m 25,-280 v -354 l 139,-138 -36,-36 -128,128 -128,-128 -36,36 139,138 v 354 h -157 l 91,121 h -91 l 182,243 182,-243 h -91 l 91,-121 z" id="path61" inkscape:connector-curvature="0" style="fill:#f9c401;fill-rule:nonzero"></path>
+ </g>
+</svg>
