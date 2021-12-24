@@ -54,6 +54,7 @@
         list-style-type: none;
         padding-left: 35px;
     }
+    
     &__link {
         position: relative;
         font-weight: bold;
@@ -85,10 +86,28 @@
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__lang {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 36px;
+        margin-bottom: 15px;
+        position: absolute;
+        top: 65px;
+        left: 50%;
+        transform: translateX(-50%);
         width: 90px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a{
+            color: #fff;
+        }
+        
     }
     &__overlay {
         position: fixed;
