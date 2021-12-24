@@ -17,3 +17,7 @@ counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
 });
 
+$(document).ready(function(){
+    new WOW().init();
+});
+
