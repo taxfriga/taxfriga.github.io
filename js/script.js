@@ -1,34 +1,57 @@
-$('.carousel__inner').slick({
-    dots: false,
-    infinite: true,
-    speed: 1500,
-    slidesToShow: 3.5,
-    slidesToScroll: 1,
-    nextArrow:'<button type="button" class="slick-next"><img src="img/arrow.png"></button>',
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+$(document).ready(function(){
+ 
+    $('ul.portfolio__tabs').on('click', 'li:not(.portfolio__tab_active)', function() {
+        $(this)
+          .addClass('portfolio__tab_active')
+          .siblings()
+          .removeClass('portfolio__tab_active')
+          .closest('div.container')
+          .find('div.portfolio__content')
+          .removeClass('portfolio__content_active')
+          .eq($(this).index())
+          .addClass('portfolio__content_active');
+    });
+
+    $('.faq__item_guestion').click(function(){
+        $(this).parents('.faq__item').find('.faq__item_answer').slideToggle();
+    });
+
+    const hamburger = document.querySelector('.hamburger'),
+    menu = document.querySelector('.menu'),
+    closeElem = document.querySelector('.menu__close');
+
+    hamburger.addEventListener('click', () => {
+        menu.classList.add('active');
+    });  
+
+    closeElem.addEventListener('click', () => {
+        menu.classList.remove('active');
+    });  
+
 });
+
+$(document).ready(function(){
+    $('.carousel__inner').slick({
+        speed: 1200,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        // adaptiveHeight: true,
+        // prevArrow: '<button type="button" class="slick-prev"><img src="img/right.svg"></button>',
+        // nextArrow: '<button type="button" class="slick-next"><img src="img/left.svg"></button>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    // dots: true,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000
+                }
+            }
+        ]
+    });
+});
+  
+
+
